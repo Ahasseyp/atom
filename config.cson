@@ -1,0 +1,37 @@
+"*":
+  "atom-clock":
+    dateFormat: "HH:mm"
+    showClockIcon: true
+    showTooltip: true
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui": {}
+  "atom-material-ui":
+    fonts: {}
+    tabs:
+      tintedTabBar: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "autocomplete-python":
+    useKite: false
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 16
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "1d819e13-3ca1-4afb-bf14-de7612e879d1"
+  "ide-java":
+    errors:
+      incompleteClasspathSeverity: "ignore"
+  "linter-ui-default":
+    panelHeight: 333
+    showPanel: true
+  welcome:
+    showOnStartup: false
